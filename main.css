@@ -1,0 +1,245 @@
+/*body*/
+
+body {
+font-family: 'Muli', sans-serif;
+}
+
+/*reseaux*/
+
+.icon {
+    position: fixed;
+    right: 0;
+}
+
+.icon li {
+    list-style: none;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    transition: transform .2s;
+}
+
+.icon li:hover {
+    transform: scale(1.5);
+
+}
+
+/*menu*/
+nav {
+    width: auto;
+    margin: -5px -5px 0px -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: teal;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li{
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+hr {
+    margin: 0;
+    }
+
+.contenu {
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 1024px) {
+    .contenu {
+      display:block;
+      clear:both;
+    }
+  }
+
+
+
+/*menuresponsive*/
+
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: right;
+        background: rgb(0, 81, 128);
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
+/*partiegauche*/
+.partiegauche {
+text-align: center;
+background-color: #2f9797;
+margin-top: 30px;
+
+}
+
+.presentation {
+padding-top: 250px;
+padding-bottom: 50px;
+color: white;
+text-align: center;
+text-transform: uppercase;
+}
+
+.presentation h2 {
+font-size: 30px;
+}
+
+
+
+.contact {
+    padding-top: 250px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+@media all and (max-width: 1024px)
+{ .partiegauche {
+background-color: rgb(0, 81, 128);
+height: 300px;
+width: auto;
+}
+}
+
+@media all and (max-width: 1024px)
+{ .presentation {
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 250px;
+   
+}
+}
+
+
+@media all and (max-width: 1024px)
+{ .contact {
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 550px;
+}
+}
+
+
+/*partiedroite*/
+
+.partiedroite {
+background-color: white;
+margin-left: 50px;
+margin-top: 20px;
+padding-right: 200px;
+}
+
+.partiedroite h3 {
+color: #2f9797; 
+}
+
+
+.strong {
+font-weight: bold;
+color: #b1b9b9;	
+}
+
+.icones {
+    background-repeat: no-repeat;
+    background-size: 15px, 15px;
+    padding-left: 25px;
+  
+}
+
+
+@media all and (max-width: 1024px)
+{ .partiedroite {
+margin: 0 auto;
+padding: 5px; 
+}
+}
+
+
+@media all and (max-width: 1024px)
+{ .partiedroite  h3 {
+color: rgb(0, 81, 128);
+
+}
+}
+
+
+#icone1 {
+    background-image: url(images/avatar.png);
+}
+
+#icone2 {
+    background-image: url(images/edit.png);
+}
+
+#icone3 {
+    background-image: url(images/school.png);
+}
+
+#icone4 {
+    background-image: url(images/pc.png);
+}
+
+#icone5 {
+    background-image: url(images/micro.png);
+}
+
+
+#icone6 {
+    background-image: url(images/clock.png);
+}
+
+
+footer img {
+    position: fixed;
+    right: 0;
+    bottom:0;
+    }
+
+    @media all and (max-width: 1024px)
+    { 
+    #hiddenimg {
+    display: none;
+    }
+    }
