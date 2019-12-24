@@ -7,3 +7,6 @@ https://angeliquecorbisier.github.io/CV/
 2. Centrer certaines div...
 3. Placement des icônes au niveau des "titres"
 4. Rendre le site responsive (pas réellement réussi) 
+
+## Deadline: 
+Projet à rendre pour le 24/12/19.
